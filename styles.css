@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Quicksand", sans-serif;
+    padding: 5px;
+}
+
+h2 {
+    color: #FF8A65;
+}
+
+footer {
+    color: white;
+    background-color: #FF8A65;
+    text-align: center;
+    margin: 5px;
+    padding: 20px;
+}
+
+.featured-images {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.jumbotron {
+    font-size: 25px; /*target yang p element*/
+    padding: 50px;
+    background-color: #FF8A65;
+    color: white;
+}
+nav {
+    top: 0;
+    padding: 10px;
+    background-color: #FF8A65;
+    position: fixed;
+    width: 100%;
+}
+
+nav a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+nav li {
+    display: inline;
+    margin-right: 25px;
+}
+
+#first-project, #third-project, #fifth-project{
+    background-color: #fab7a2;
+    color: black;
+    font-size: 1.2em;
+    padding: 15px;
+}
+
+#second-project, #fourth-project, #other-projects {
+    border: 5px solid #fab7a2;
+    background-color: rgb(248, 248, 248);
+    color:#d66442fa;
+    font-size: 1.2em;
+    padding: 15px;
+    display: block;
+}
+
+.project-images {
+    width: 400px;
+    display: inline-block;
+}
+
+.other-projects-images {
+    width: 40%;
+    display:inline-block;
+}
